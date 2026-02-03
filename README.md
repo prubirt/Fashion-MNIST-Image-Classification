@@ -1,3 +1,6 @@
+#Google Collab link:
+https://colab.research.google.com/drive/1G2YxjVkGqK-1Q1Ar8ceZhfANqGpcjNbe?usp=sharing
+
 # Fashion-MNIST-Image-Classification
 
 
