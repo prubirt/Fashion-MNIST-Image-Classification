@@ -15,12 +15,36 @@ We normalize image pixel values before training because it makes learning easier
 
 ### 3. List the layers used in the neural network and their functions.
 
+Flatten layer: Converts the 2D image into a 1D array.
+
+Dense (hidden) layer: Learns patterns and relationships in the data.
+
+ReLU activation: Adds non-linearity to help learn complex features.
+
+Output layer (Softmax): Outputs probabilities for each clothing class.
 
 
 ### 4. What does an epoch mean in model training?
 
+An epoch is one complete pass through the entire training dataset.
+During one epoch, the model sees every training example once.
+Multiple epochs allow the model to gradually improve its accuracy.
 
 ### 5. Compare the predicted label and actual label for the first test image.
 
+The actual label is the true clothing category from the dataset.
+The predicted label is the category chosen by the model.
+If both labels are the same, the prediction is correct; otherwise, it is incorrect.
+(Example: Actual label = “Sneaker”, Predicted label = “Sneaker” → Correct)
 
 ### 6. What could be done to improve the model’s accuracy?
+
+Train the model for more epochs
+
+Add more hidden layers or neurons
+
+Use data augmentation
+
+Adjust the learning rate or batch size
+
+Apply regularization techniques like dropout
